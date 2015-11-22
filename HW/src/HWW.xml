@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HW.makejar" default="delete" basedir=".">
+  <target name ="test" description="Create a jar for the HW project">
+  <echo> "wellcome"</echo>
+     </target>
+     
+     <target name="test2" > <echo> "this is test 2"</echo>
+     
+      
+     
+     </target>
+<target name="Create"> 
+
+<mkdir dir="bin"> </mkdir>
+<mkdir dir="srs"> </mkdir>
+<mkdir dir="lib"> </mkdir>
+</target>
+<target name="delete"> 
+
+<delete dir="bin"> </delete> </target>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</project>
+
